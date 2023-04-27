@@ -1,0 +1,27 @@
+body{
+    background-color:whitesmoke;
+}
+table{
+    border: 2px ridge grey;
+    border-collapse:inherit;
+    width: 100%;
+    color: rgb(71, 8, 8);
+}
+td, th{
+    border: 1px ridge grey;
+    text-align: center;
+}
+#title{
+    background-color:rgb(44, 130, 83);
+}
+#subtitle{
+    background-color: burlywood;
+}
+#sub2{
+    background-color: khaki;
+}
+#image{
+    background-color: antiquewhite;
+    
+    
+}
