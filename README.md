@@ -36,3 +36,12 @@ Ejercicio 16:
 https://techma-fullstack-java-angular.github.io/UD29/Ejercicio16/animales.html
 
 Ejercicio 17:
+
+
+https://techma-fullstack-java-angular.github.io/UD29/Ejercicio17/ejercicio17.html
+
+
+Ejercicio 18:
+
+
+
