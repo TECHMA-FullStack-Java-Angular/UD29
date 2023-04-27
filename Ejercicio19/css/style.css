@@ -1,0 +1,10 @@
+table{
+    border: 2px ridge grey;
+    border-collapse:inherit;
+    width: 100%;
+    color: rgb(71, 8, 8);
+}
+td, th{
+    border: 1px ridge grey;
+    text-align: center;
+}
