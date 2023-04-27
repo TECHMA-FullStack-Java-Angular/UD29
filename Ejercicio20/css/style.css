@@ -1,0 +1,13 @@
+table{
+    border: 2px ridge grey;
+    border-collapse:inherit;
+    
+    color: black;
+}
+td, th{
+    border: 1px ridge grey;
+    text-align: center;
+}
+td{
+    text-align: left;
+}
