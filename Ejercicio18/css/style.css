@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.suelo{
+    background-image: url(../images/f01.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 10px;
+}
+.anterior{
+    height: 70%;
+    width: 35%;
+    border: 2px solid blue;
+    background-color: rgb(167, 218, 235);
+
+}
+.prueba{
+    border: 2px solid red;
+    width: 70%;
+    background-color: rgb(167, 218, 235);
+
+   
+}
+.mario{
+    background-image: url(../images/f02.png);
+    background-repeat: no-repeat;
+    height: 80px; 
+    background-size: contain;  
+}
+.nubes{
+    background-image: url(../images/f03.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    height: 100px;
+}
+.posterior{
+    width: 35%;
+    border: 2px solid blue;
+    background-color: rgb(167, 218, 235); 
+
+}
+
