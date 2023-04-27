@@ -1,44 +1,128 @@
+/*Estilo del container general*/
 .container{
     display: flex;
     flex-direction: column;
     align-content: space-around;
+    font-size: smaller;
 }
+/*Tamaño, borde y fondo de los 3 itens*/
+.anterior{
+    height: 70px;
+    width: 150px;
+    border: 2px solid blue;
+    background-color: rgb(167, 218, 235);
+    display: flex;
+    flex-direction: column;
+    background-size: auto;
+    position: relative; /* añadir para definir el contexto de apilamiento */
+    margin-bottom: 5%;
+
+}
+.prueba{
+    border: 2px solid red;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(167, 218, 235); 
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+.posterior{
+    height: 70px;
+    width: 150px;
+    border: 2px solid blue;
+    background-color: rgb(167, 218, 235);
+    display: flex;
+    flex-direction: column;
+    background-size: auto;
+    position: relative; /* añadir para definir el contexto de apilamiento */
+    margin-bottom: 5%;
+}
+
+/*Elementos a insertar en los itens*/
 .suelo{
     background-image: url(../images/f01.png);
     background-repeat: repeat-x;
     background-position: bottom;
     height: 10px;
-}
-.anterior{
-    height: 70%;
-    width: 35%;
-    border: 2px solid blue;
-    background-color: rgb(167, 218, 235);
-
-}
-.prueba{
-    border: 2px solid red;
-    width: 70%;
-    background-color: rgb(167, 218, 235);
-
-   
+    margin-top: 0px; /* ajustar margen superior */
+    margin-bottom: -10px;
 }
 .mario{
     background-image: url(../images/f02.png);
     background-repeat: no-repeat;
     height: 80px; 
-    background-size: contain;  
+    background-size: contain; 
+    margin-bottom: -10px;
 }
 .nubes{
     background-image: url(../images/f03.png);
     background-repeat: repeat-x;
     background-position: top;
     height: 100px;
+    position: relative;
+    background-size:60%; 
+    
 }
-.posterior{
-    width: 35%;
-    border: 2px solid blue;
-    background-color: rgb(167, 218, 235); 
 
+.nubesA{
+    background-image: url(../images/f03.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: contain;
+    z-index: 0; /* establecer el valor de z-index a 0 para que esté detrás de .mario */
 }
+
+.sueloA{
+    background-image: url(../images/f01.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 10px;
+    margin-top: -10px; /* ajustar margen superior */
+}
+.marioA{
+    background-image: url(../images/f02.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: contain;
+    position: relative; /* añadir para definir el contexto de apilamiento */
+    z-index: 1; /* establecer el valor de z-index a 1 para que esté encima de .nubes */
+    margin-top: -20px; /* ajustar margen superior */
+    margin-bottom: -20px; /* ajustar margen superior */  
+}
+.nubesP{
+    background-image: url(../images/f03.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: contain;
+    z-index: 0; /* establecer el valor de z-index a 0 para que esté detrás de .mario */
+}
+
+.sueloP{
+    background-image: url(../images/f01.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 10px;
+    margin-top: -10px; /* ajustar margen superior */
+}
+.marioP{
+    background-image: url(../images/f02.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: contain;
+    position: relative; /* añadir para definir el contexto de apilamiento */
+    z-index: 1; /* establecer el valor de z-index a 1 para que esté encima de .nubes */
+    margin-top: -20px; /* ajustar margen superior */
+    margin-bottom: -20px; /* ajustar margen superior */ 
+}
+
 
