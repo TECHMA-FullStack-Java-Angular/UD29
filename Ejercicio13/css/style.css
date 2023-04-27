@@ -1,0 +1,31 @@
+table{
+    border: 2px ridge grey;
+    border-collapse: collapse;
+    width: 100%;
+}
+p{
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+td, th{
+    border: 1px ridge grey;
+    font-weight: bold;
+    text-align: center;
+}
+#c1{
+    background-color:lightgreen;
+}
+#c2{
+    background-color: aqua;
+    text-align: left;
+}
+#c6{
+    background-color: hotpink;
+    text-align: end;
+    vertical-align: bottom;
+}
+.red{
+    color: red;
+    border: 1px ridge red;
+}
