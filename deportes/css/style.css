@@ -26,3 +26,6 @@ tr.rowEven{
 tr.rowOdd{
     background-color:  rgb(166, 226, 166);
 }
+td.center{
+    text-align: center;
+}
