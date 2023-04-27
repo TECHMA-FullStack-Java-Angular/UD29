@@ -44,4 +44,16 @@ https://techma-fullstack-java-angular.github.io/UD29/Ejercicio17/ejercicio17.htm
 Ejercicio 18:
 
 
+https://techma-fullstack-java-angular.github.io/UD29/Ejercicio18/mario.html
 
+
+Ejercicio 19:
+
+
+https://techma-fullstack-java-angular.github.io/UD29/Ejercicio19/desempleo.html
+
+
+Ejercicio 20:
+
+
+https://techma-fullstack-java-angular.github.io/UD29/Ejercicio20/etiquetas.html
